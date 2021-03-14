@@ -21,4 +21,4 @@ RUN dotnet restore && \
 
 WORKDIR /app
 
-ENTRYPOINT [ "/usr/src/vehicle-routing/VehicleRouting/run.sh" ]
+ENTRYPOINT [ "/usr/src/vehicle-routing/run.sh" ]
