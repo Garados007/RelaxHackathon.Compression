@@ -145,7 +145,7 @@ namespace RelaxHackathon.Compression
             var start = new ProcessStartInfo
             {
                 Arguments = $"{path} {data}",
-                FileName = "python",
+                FileName = "python2.7",
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,
             };
