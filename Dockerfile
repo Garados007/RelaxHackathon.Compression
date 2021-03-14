@@ -17,6 +17,7 @@ COPY . /usr/src/RelaxHackathon.Compression
 RUN dotnet restore && \
     dotnet build -c Release && \
     chmod +x RelaxHackathon.Compression/bin/Release/net5.0/RelaxHackathon.Compression && \
+    chmod +x run.sh && \
     git clone https://github.com/precious/bash_minifier.git bash_minifier
 
 WORKDIR /app
