@@ -1,6 +1,7 @@
 FROM ubuntu:latest
 RUN apt-get update -y && \
     apt-get install -y --no-install-recommends wget curl git xz-utils ca-certificates && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends tzdata && \
     wget https://packages.microsoft.com/config/ubuntu/20.10/packages-microsoft-prod.deb \
         --no-check-certificate \
         -O packages-microsoft-prod.deb && \
