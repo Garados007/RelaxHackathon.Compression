@@ -4,3 +4,5 @@ obj
 # vs files
 .vs
 .vscode
+# clone files
+bash_minifier
