@@ -105,7 +105,7 @@ namespace RelaxHackathon.Compression
             await File.WriteAllTextAsync(".data.tmp", content).ConfigureAwait(false);
             var start = new ProcessStartInfo
             {
-                Arguments = "bash_minifier/minifier.py .data.tmp",
+                Arguments = "/usr/src/RelaxHackathon.Compression/bash_minifier/minifier.py .data.tmp",
                 FileName = "python",
                 RedirectStandardOutput = true,
             };
