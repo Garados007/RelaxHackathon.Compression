@@ -1,5 +1,7 @@
 # RelaxHackathon.Compression
 
+> This project was part of a Hackathon and will no longer be maintained. If you think you can extend it feel free to create a fork
+
 This project was created in the Relaxdays Code Challenge Vol. 1. 
 See https://sites.google.com/relaxdays.de/hackathon-relaxdays/startseite for more information. 
 My participant ID in the challenge was: CC-VOL1-49
